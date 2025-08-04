@@ -1,0 +1,14 @@
+export default function ArrowIcon() {
+  return (
+    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <g clipPath="url(#clip0_672_22171)">
+        <path d="M7.49988 4.5L6.44238 5.5575L9.87738 9L6.44238 12.4425L7.49988 13.5L11.9999 9L7.49988 4.5Z" fill="#99A6C0" />
+      </g>
+      <defs>
+        <clipPath id="clip0_672_22171">
+          <rect width="18" height="18" fill="white" />
+        </clipPath>
+      </defs>
+    </svg>
+  );
+}

@@ -1,0 +1,82 @@
+{
+  "about_top_slideshow_id": [
+    {
+      "id": 1,
+      "image": "/images/home/about/top/callcenter.webp",
+      "icon": "lightbulb",
+      "name": "Call Center"
+    },
+    {
+      "id": 2,
+      "image": "/images/home/about/top/teknisi.webp",
+      "icon": "lightbulb",
+      "name": "Teknisi"
+    },
+    {
+      "id": 3,
+      "image": "/images/home/about/top/interior.webp",
+      "icon": "lightbulb",
+      "name": "Interior"
+    }
+  ],
+  "about_top_slideshow_en": [
+    {
+      "id": 1,
+      "image": "/images/home/about/top/callcenter.webp",
+      "icon": "lightbulb",
+      "name": "Call Center"
+    },
+    {
+      "id": 2,
+      "image": "/images/home/about/top/teknisi.webp",
+      "icon": "lightbulb",
+      "name": "Technician"
+    },
+    {
+      "id": 3,
+      "image": "/images/home/about/top/interior.webp",
+      "icon": "lightbulb",
+      "name": "Interior"
+    }
+  ],
+  "about_bot_slideshow_id": [
+    {
+      "id": 1,
+      "image": "/images/home/about/bot/monitoring.webp",
+      "icon": "lightbulb",
+      "name": "Pengawasan"
+    },
+    {
+      "id": 2,
+      "image": "/images/home/about/bot/pengamanan.webp",
+      "icon": "lightbulb",
+      "name": "Pengamanan dan Keamanan"
+    },
+    {
+      "id": 3,
+      "image": "/images/home/about/bot/pusatpelatihan.webp",
+      "icon": "lightbulb",
+      "name": "Pusat Pelatihan"
+    }
+  ],
+  "about_bot_slideshow_en": [
+    {
+      "id": 1,
+      "image": "/images/home/about/bot/monitoring.webp",
+      "icon": "lightbulb",
+      "name": "Monitoring"
+    },
+    {
+      "id": 2,
+      "image": "/images/home/about/bot/pengamanan.webp",
+      "icon": "lightbulb",
+      "name": "Security and Safety"
+    },
+    {
+      "id": 3,
+      "image": "/images/home/about/bot/pusatpelatihan.webp",
+      "icon": "lightbulb",
+      "name": "Training Center"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "thumbnail_banner": [
+    {
+      "id": 1,
+      "image": "/images/home/banner-1.webp",
+      "name": "Banner 1 "
+    },
+    {
+      "id": 2,
+      "image": "/images/home/banner-2.webp",
+      "name": "Banner 2 "
+    }
+  ]
+}

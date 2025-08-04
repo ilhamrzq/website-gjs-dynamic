@@ -1,0 +1,124 @@
+{
+  "clients": [
+    {
+      "image": "/images/clients/client-sheratonkutabali.png",
+      "name": "Hotel Sheraton Kuta Bali"
+    },
+    {
+      "image": "/images/clients/client-aloftkutabali.png",
+      "name": "Hotel Aloft Kuta Bali"
+    },
+    {
+      "image": "/images/clients/client-westinnusaduabali.png",
+      "name": "Hotel Westin Nusa Dua Bali"
+    },
+    {
+      "image": "/images/clients/client-parkhyattjakarta.png",
+      "name": "Hotel Park Hyatt Jakarta"
+    },
+    {
+      "image": "/images/clients/client-rcti.png",
+      "name": " PT Rajawali Citra Televisi Indonesia"
+    },
+    {
+      "image": "/images/clients/client-gtv.png",
+      "name": "PT Global Informasi Bermutu"
+    },
+    {
+      "image": "/images/clients/client-roatexindonesia.png",
+      "name": "Roatex Indonesia"
+    },
+    {
+      "image": "/images/clients/client-pltubanjarsari.png",
+      "name": "PLTU Banjarsari"
+    },
+    {
+      "image": "/images/clients/client-kedubesmalaysia.png",
+      "name": "Kedutaan Besar Malaysia"
+    },
+    {
+      "image": "/images/clients/client-mnctv.png",
+      "name": "PT MNC Televisi Indonesia"
+    },
+    {
+      "image": "/images/clients/client-row9.png",
+      "name": "Row 9"
+    },
+    {
+      "image": "/images/clients/client-smkletris1.png",
+      "name": "SMK Letris 1"
+    },
+    {
+      "image": "/images/clients/client-smkletris2.png",
+      "name": "SMK Letris 2"
+    },
+    {
+      "image": "/images/clients/client-penabur.png",
+      "name": "Sekolah BPK Penabur"
+    },
+    {
+      "image": "/images/clients/client-universitasbundamulia.png",
+      "name": "Universitas Bunda Mulia"
+    },
+    {
+      "image": "/images/clients/client-flip.png",
+      "name": "Flip"
+    },
+    {
+      "image": "/images/clients/client-saranamukti.png",
+      "name": "PT Sarana Mukti Adijaya"
+    },
+    {
+      "image": "/images/clients/client-inews.png",
+      "name": "PT MNC Televisi Network"
+    },
+    {
+      "image": "/images/clients/client-gedungmenarasudirman.png",
+      "name": "Gedung Menara Sudirman"
+    },
+    {
+      "image": "/images/clients/client-mncbank.png",
+      "name": "PT Bank MNC Internasional Tbk"
+    },
+    {
+      "image": "/images/clients/client-realfood.png",
+      "name": "PT Realfood Karya Indonesia"
+    },
+    {
+      "image": "/images/clients/client-mnctourism.png",
+      "name": "PT MNC Tourism Indonesia Tbk"
+    },
+    {
+      "image": "/images/clients/client-movielandlido.png",
+      "name": "Movieland Lido"
+    },
+    {
+      "image": "/images/clients/client-mncskyvision.png",
+      "name": "PT MNC Sky Vision Tbk"
+    },
+    {
+      "image": "/images/clients/client-transjava.png",
+      "name": "PT Trans Javagas Pipeline"
+    },
+    {
+      "image": "/images/clients/client-rizkibukitabadi.png",
+      "name": "PT Rizki Bukit Abadi"
+    },
+    {
+      "image": "/images/clients/client-mncsekuritas.png",
+      "name": "PT MNC Sekuritas"
+    },
+    {
+      "image": "/images/clients/client-cvsaluyu.png",
+      "name": "CV Saluyu"
+    },
+    {
+      "image": "/images/clients/client-mncfinancialservices.png",
+      "name": "PT MNC Kapital Indonesia Tbk"
+    },
+    {
+      "image": "/images/clients/client-usmarismailhall.png",
+      "name": "Gedung Perfilman Usmar Ismail"
+    }
+  ]
+}

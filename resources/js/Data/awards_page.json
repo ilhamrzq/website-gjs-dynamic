@@ -1,0 +1,96 @@
+{
+  "penghargaan": [
+    {
+      "id": 1,
+      "image": "/images/awards/sertifikat/serti1.webp",
+      "name": "Sertifikat 1",
+      "type": "sertifikat"
+    },
+    {
+      "id": 2,
+      "image": "/images/awards/sertifikat/serti2.webp",
+      "name": "Sertifikat 2",
+      "type": "sertifikat"
+    },
+    {
+      "id": 3,
+      "image": "/images/awards/sertifikat/serti3.webp",
+      "name": "Sertifikat 3",
+      "type": "sertifikat"
+    },
+    {
+      "id": 4,
+      "image": "/images/awards/sertifikat/serti4.webp",
+      "name": "Sertifikat 4",
+      "type": "sertifikat"
+    },
+    {
+      "id": 5,
+      "image": "/images/awards/sertifikat/serti5.webp",
+      "name": "Sertifikat 5",
+      "type": "sertifikat"
+    },
+    {
+      "id": 6,
+      "image": "/images/awards/sertifikat/serti6.webp",
+      "name": "Sertifikat 6",
+      "type": "sertifikat"
+    },
+    {
+      "id": 7,
+      "image": "/images/awards/sertifikat/serti7.webp",
+      "name": "Sertifikat 7",
+      "type": "sertifikat"
+    },
+    {
+      "id": 8,
+      "image": "/images/awards/sertifikat/serti8.webp",
+      "name": "Sertifikat 8",
+      "type": "sertifikat"
+    }
+  ],
+  "iso": [
+    {
+      "id": 1,
+      "image": "/images/awards/iso/iso1.webp",
+      "name": "Iso 1",
+      "type": "Iso"
+    },
+    {
+      "id": 2,
+      "image": "/images/awards/iso/iso2.webp",
+      "name": "Iso 2",
+      "type": "Iso"
+    },
+    {
+      "id": 3,
+      "image": "/images/awards/iso/iso3.webp",
+      "name": "Iso 3",
+      "type": "Iso"
+    },
+    {
+      "id": 4,
+      "image": "/images/awards/iso/iso4.webp",
+      "name": "Iso 4",
+      "type": "Iso"
+    },
+    {
+      "id": 5,
+      "image": "/images/awards/iso/iso5.webp",
+      "name": "Iso 5",
+      "type": "Iso"
+    },
+    {
+      "id": 6,
+      "image": "/images/awards/iso/iso6.webp",
+      "name": "Iso 6",
+      "type": "Iso"
+    },
+    {
+      "id": 7,
+      "image": "/images/awards/iso/iso7.webp",
+      "name": "Iso 7",
+      "type": "Iso"
+    }
+  ]
+}

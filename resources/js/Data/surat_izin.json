@@ -1,0 +1,81 @@
+{
+  "surat_izin": [
+    {
+      "id": 1,
+      "file": "/sertifikat/SIO - Jawa Barat 2022.pdf",
+      "date": "25 April 2022",
+      "name": "SIO Jawa Barat 2022",
+      "url": "https://drive.google.com/file/d/1owziFesGbaFeJQxynfzjE_eyxQYec3ns/view?usp=sharing"
+    },
+    {
+      "id": 2,
+      "file": "/sertifikat/SIO - K9 2023.pdf",
+      "date": "11 April 2023",
+      "name": "SIO K9 2023",
+      "url": "https://drive.google.com/file/d/18F9GNeUNyDJpFl8a-HZKXWtQ2NnOzSj7/view?usp=sharing"
+    },
+    {
+      "id": 3,
+      "file": "/sertifikat/SIO Bali 2022.pdf",
+      "date": "26 April 2023",
+      "name": "SIO Bali 2022",
+      "url": "https://drive.google.com/file/d/1hjBs179gC7MbsVaykKJbgt3YjWGYN3S1/view?usp=sharing  "
+    },
+    {
+      "id": 4,
+      "file": "/sertifikat/SIO JATIM 2022-2024 (Penerapan Peralatan Keamanan).pdf",
+      "date": "22 Juni 2022",
+      "name": "SIO Jatim Penerapan Peralatan Kemanan",
+      "url": "https://drive.google.com/file/d/1cX4IdF_80Pie82vlG_pMRxaWyewQCHPp/view?usp=sharing"
+    },
+    {
+      "id": 5,
+      "file": "/sertifikat/SIO JATIM 2022-2024 (Penyedia Jasa Tenaga Keamanan).pdf",
+      "date": "21 Juni 2022",
+      "name": "SIO Jatim Penyedia Jasa Tenaga Kemanan",
+      "url": "https://drive.google.com/file/d/1cbbb7Ocm9DtSo4w8QMNcdpz-XTfSHc_3/view?usp=sharing"
+    },
+    {
+      "id": 6,
+      "file": "/sertifikat/SIO KALTIM Penyedia Jasa Pengamanan 2022-2024.pdf",
+      "date": "19 Juli 2022",
+      "name": "SIO Kaltim Penyedia Jasa Pengamanan",
+      "url": "https://drive.google.com/file/d/1ggDROpfmLg2ndfvYrD5c-IKIzpDLCnE2/view?usp=sharing"
+    },
+    {
+      "id": 7,
+      "file": "/sertifikat/SIO MEDAN 2023-2025.pdf",
+      "date": "12 May 2023",
+      "name": "SIO Medan 2023-2025",
+      "url": "https://drive.google.com/file/d/1ggDROpfmLg2ndfvYrD5c-IKIzpDLCnE2/view?usp=sharing"
+    },
+    {
+      "id": 7,
+      "file": "/sertifikat/SIO Pelatihan Keamanan Jakarta 2021-2023.pdf",
+      "date": "15 Juni 2021",
+      "name": "SIO Pelatihan Kemanan Jakarta 2021-2023",
+      "url": "https://drive.google.com/file/d/1kWvBlrk5huoY2GuV9eRpKMdLci-5U728/view?usp=sharing"
+    },
+    {
+      "id": 8,
+      "file": "/sertifikat/SIO Penerapan Peralatan Keamanan 2021-2023.pdf",
+      "date": "16 Juni 2021",
+      "name": "SIO Penerapan Peralatan Kemanan 2021-2023",
+      "url": "https://drive.google.com/file/d/16-ncmDOhco14x8OphCziTOE9egaCFXwA/view?usp=sharing"
+    },
+    {
+      "id": 9,
+      "file": "/sertifikat/SIO RIAU 2022-2023.pdf",
+      "date": "25 Oct 2022",
+      "name": "SIO Riau 2022-2023",
+      "url": "https://drive.google.com/file/d/1evr9ZDzXNHM6kUu66uGLv8_pW7Fljw0A/view?usp=sharing"
+    },
+    {
+      "id": 10,
+      "file": "/sertifikat/SIO Semarang (2022-2024).pdf",
+      "date": "21 Maret 2022",
+      "name": "SIO Semarang 2022-2024",
+      "url": "https://drive.google.com/file/d/1mb7q37RovKanNnhjSpcBW6x2ObOMSoMZ/view?usp=sharing"
+    }
+  ]
+}

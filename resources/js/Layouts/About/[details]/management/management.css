@@ -1,0 +1,32 @@
+.tagline {
+  font-style: italic;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 160%;
+  text-align: center;
+  color: #ca5252;
+}
+
+.card img {
+  border: 1px solid #dddddd;
+}
+
+.video {
+  background: linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0.894781) 52.08%, #fdfdfd 100%), url(/images/about/about-cover.webp);
+  background-size: 100% 100%;
+}
+
+.wrapper-icon {
+  background: linear-gradient(225deg, rgba(255, 255, 255, 0.2) 0.14%, rgba(255, 255, 255, 0) 100.14%);
+  border-radius: 64px;
+}
+.icon {
+  background: linear-gradient(225deg, rgba(255, 255, 255, 0.2) 0.14%, rgba(255, 255, 255, 0) 100.14%);
+  border-radius: 48px;
+}
+
+.card-person {
+  background: #ffffff;
+  box-shadow: 0px 20px 40px rgba(33, 36, 58, 0.04);
+  border-radius: 14px;
+}

@@ -1,0 +1,46 @@
+{
+  "services_id": [
+    {
+      "to": "/id/layanan/manajemen-properti",
+      "icon": "apartment",
+      "name": "Manajemen Properti"
+    },
+    {
+      "to": "/id/layanan/pengamanan",
+      "icon": "security",
+      "name": "Jasa Pengamanan & Konsultasi Keamanan"
+    },
+    {
+      "to": "/id/layanan/pusat-pelatihan",
+      "icon": "badge",
+      "name": "Pusat Pelatihan"
+    },
+    {
+      "to": "/id/layanan/supervisi-desain",
+      "icon": "description",
+      "name": "Supervisi & Desain"
+    }
+  ],
+  "services_en": [
+    {
+      "to": "/en/services/building-management",
+      "icon": "apartment",
+      "name": "Building Management"
+    },
+    {
+      "to": "/en/services/consultancy-security",
+      "icon": "security",
+      "name": "Consultancy and Security"
+    },
+    {
+      "to": "/en/services/training-center",
+      "icon": "badge",
+      "name": "Training Center"
+    },
+    {
+      "to": "/en/services/design-supervision",
+      "icon": "description",
+      "name": "Design and Supervision"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+.section-1 {
+  background: linear-gradient(180deg, rgba(35, 54, 114, 0) 0%, rgba(35, 54, 114, 0.06) 100%);
+}
+
+.buildingmanagement-icon {
+  padding: 16px;
+  gap: 8px;
+  width: 120px;
+  height: 120px;
+  background: linear-gradient(180deg, #f0f2f6 0%, #eff1f5 100%);
+  border-radius: 64px;
+}
+
+.buildingmanagement-icon__rounded {
+  padding: 16px;
+  gap: 8px;
+  width: 88px;
+  height: 88px;
+  background: linear-gradient(225deg, rgba(35, 54, 114, 0.2) 0.14%, rgba(35, 54, 114, 0) 100.14%);
+  border-radius: 48px;
+}
+
+.buildingmanagement-icon__rounded .material-symbols-outlined {
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .building-management__service {
+    height: 240px;
+    background: url('/images/services/service-consultacysecurity.png') no-repeat;
+    width: 100%;
+    background-size: 100%;
+
+    background-position: center;
+  }
+}

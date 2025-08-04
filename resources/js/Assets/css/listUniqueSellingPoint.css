@@ -1,0 +1,9 @@
+.rounded-selling-point-1 {
+  border-radius: 16px 16px 0px 16px;
+}
+.rounded-selling-point-2 {
+  border-radius: 0px 16px 16px 0px;
+}
+.rounded-selling-point-3 {
+  border-radius: 16px 0px 16px 16px;
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "link_id": "/id/produk/mobile-aplikasi",
+    "link_en": "/en/product/mobile-app",
+    "title": "GJS Security Patrol",
+    "description": {
+      "id": "Patroli Keamanan GJS adalah aplikasi manajemen keamanan yang andal yang menyediakan solusi all-in-one untuk bangunan keamanan.",
+      "en": "GJS Security Patrol is a powerful security management app that provides an all-in-one solution for building security."
+    },
+    "image": "/images/products/product-gjs-mobile-navbar.png",
+    "imageAlt": "product-gjs-mobile-navbar"
+  },
+  {
+    "id": 2,
+    "link_id": "/id/produk/web-aplikasi",
+    "link_en": "/en/product/web-app",
+    "title": "GJS Client Portal",
+    "description": {
+      "id": "Portal Klien GJS adalah alat pelaporan canggih yang menyediakan real-time update pada semua aspek dari GJS Data Patroli Keamanan.",
+      "en": "GJS Client Portal is a powerful reporting tool that provides real-time updates on all aspects from GJS Security Patrol data."
+    },
+    "image": "/images/products/product-gjs-web-navbar.png",
+    "imageAlt": "product-gjs-web-navbar"
+  }
+]

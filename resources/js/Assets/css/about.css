@@ -1,0 +1,36 @@
+.tagline {
+  font-style: italic;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 160%;
+  text-align: center;
+  color: #ca5252;
+}
+
+.video {
+  background: linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0.894781) 52.08%, #fdfdfd 100%), url(/images/about/about-cover.webp);
+  background-size: 100% 100%;
+}
+
+.wrapper-icon {
+  background: linear-gradient(225deg, rgba(255, 255, 255, 0.2) 0.14%, rgba(255, 255, 255, 0) 100.14%);
+  border-radius: 64px;
+}
+.icon {
+  background: linear-gradient(225deg, rgba(255, 255, 255, 0.2) 0.14%, rgba(255, 255, 255, 0) 100.14%);
+  border-radius: 48px;
+}
+
+.vision-active {
+  border-radius: 8px;
+  background: rgba(33, 36, 58, 0.6);
+}
+
+.bg_vision_mision {
+  background: url('/images/about/about-decoration.png') #233672;
+  background-size: 100% 100%;
+  background-position: top;
+  padding: 58px 0 1px 0;
+  margin-top: 160px;
+  height: 100%;
+}

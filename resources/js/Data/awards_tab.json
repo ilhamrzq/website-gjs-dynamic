@@ -1,0 +1,22 @@
+{
+  "awards_tab_id": [
+    {
+      "id": 1,
+      "title": "Penghargaan"
+    },
+    {
+      "id": 2,
+      "title": "ISO"
+    }
+  ],
+  "awards_tab_en": [
+    {
+      "id": 1,
+      "title": "Awards"
+    },
+    {
+      "id": 2,
+      "title": "ISO"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "services_id": [
+    {
+      "id": 1,
+      "title": "Manajemen Properti",
+      "icon": "apartment",
+      "href": "/id/layanan/manajemen-properti",
+      "desc": "Layanan pengelolaan properti, pemeliharaan aset dan peralatan mekanikal/elektronik hingga jasa kebersihan dan pest control.",
+      "image": "/images/home/services/manajemenproperti.webp"
+    },
+    {
+      "id": 2,
+      "title": "Jasa Pengamanan & Konsultan Keamanan",
+      "icon": "security",
+      "href": "/id/layanan/pengamanan",
+      "desc": "Layanan keamanan yang professional, terlatih, dan berpengalaman dengan lebih dari 2.000 personel di 132 kota di Indonesia dan terus bertambah.",
+      "image": "/images/home/services/jasapengamanan.webp"
+    },
+    {
+      "id": 3,
+      "title": "Pusat Pelatihan",
+      "icon": "badge",
+      "href": "/id/layanan/pusat-pelatihan",
+      "desc": "Menyelenggarakan berbagai pendidikan dan pelatihan Sumber Daya Manusia di bidang keamanan dan pengelolaan properti.",
+      "image": "/images/home/services/pusatpelatihan.webp"
+    },
+    {
+      "id": 4,
+      "title": "Supervisi & Desain",
+      "icon": "description",
+      "href": "/id/layanan/supervisi-desain",
+      "desc": "Menyediakan solusi kebutuhan perencanaan, perancangan, dan pengawasan dengan fokus pada gedung bertingkat, perhotelan, perumahan serta pertamanan.",
+      "image": "/images/home/services/supervisidesain.webp"
+    }
+  ],
+  "services_en": [
+    {
+      "id": 1,
+      "title": "Building Management ",
+      "icon": "apartment",
+      "href": "/en/services/building-management",
+      "desc": "Property management services include management and maintenance of building and area facilities.",
+      "image": "/images/home/services/manajemenproperti.webp"
+    },
+    {
+      "id": 2,
+      "title": "Consultancy and Security",
+      "icon": "security",
+      "href": "/en/services/consultancy-security",
+      "desc": "We provide security services supported by professional security personnel who have graduated from various trainings in accordance with standard operating procedures.",
+      "image": "/images/home/services/jasapengamanan.webp"
+    },
+    {
+      "id": 3,
+      "title": "Training Center",
+      "icon": "fitness_center",
+      "href": "/en/services/training-center",
+      "desc": "Global Jasa Sejahtera provides solutions to improve the competence and quality of Human Resources with various education and training.",
+      "image": "/images/home/services/pusatpelatihan.webp"
+    },
+    {
+      "id": 4,
+      "title": "Design and Supervision",
+      "icon": "description",
+      "href": "/en/services/design-supervision",
+      "desc": "A good plan will greatly affect the work process in designing the design of your existing rooms in high-rise buildings, housing, to landscaping concepts.",
+      "image": "/images/home/services/supervisidesain.webp"
+    }
+  ]
+}
