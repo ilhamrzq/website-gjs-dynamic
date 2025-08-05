@@ -1,6 +1,6 @@
 import { Link } from '@inertiajs/react';
 import '../assets/css/footer.css';
-import { validateAndSanitizePhoneNumber } from '../utils/whatsapp';
+import { validateAndSanitizePhoneNumber } from '../Utils/whatsapp';
 
 export default function Footer({ lang_code }) {
   const whatsappHref = () => {
@@ -21,7 +21,7 @@ export default function Footer({ lang_code }) {
           <div className="footer w-full">
             <div className="flex flex-col md:flex-row w-full md:w-11/12 gap-10 md:gap-0">
               <div className="footer-image md:w-3/12 px-4 md:px-[72px] justify-center flex flex-row">
-                <Link to={lang_code === 'id' ? '/id' : '/en'}>
+                <Link href={lang_code === 'id' ? '/id' : '/en'}>
                   <img src="/images/logo/logo-footer.png" alt="footer-logo" className="rounded-t-2xl w-full object-cover" />
                 </Link>
               </div>
@@ -186,32 +186,32 @@ export default function Footer({ lang_code }) {
                   </div>
                   {lang_code === 'id' ? (
                     <div className="list-link__body flex flex-col gap-4 items-start">
-                      <Link to="/id/tentang/karir">
+                      <Link href="/id/tentang/karir">
                         <p className="flex items-center gap-4">
                           <span className="dot w-2 h-2"> </span>
                           Karir di GJS
                         </p>
                       </Link>
-                      <Link to="https://www.jobsmnc.co.id/" target="_blank">
+                      <Link href="https://www.jobsmnc.co.id/" target="_blank">
                         <p className="flex items-center gap-4">
                           <span className="dot w-2 h-2"> </span>
                           Karir di MNC Group
                         </p>
                       </Link>
-                      <Link to="https://www.mncgroup.com/business-unit" target="_blank">
+                      <Link href="https://www.mncgroup.com/business-unit" target="_blank">
                         <p className="flex items-center gap-4">
                           <span className="dot w-2 h-2"> </span>
                           MNC Group Business
                         </p>
                       </Link>
-                      <Link to="/id/sitemap">
+                      <Link href="/id/sitemap">
                         <p className="flex items-center gap-4">
                           <span className="dot w-2 h-2"> </span>
                           Sitemap
                         </p>
                       </Link>
                       <p className="flex gap-4 text-center w-full justify-center">
-                        <Link to={lang_code === 'id' ? '/id' : '/en'} className="hidden md:block">
+                        <Link href={lang_code === 'id' ? '/id' : '/en'} className="hidden md:block">
                           <img src="/images/footer/Logo-GJS.jpg" alt="footer-logo" className="rounded-5" />
                         </Link>
                         <a target="_blank" href="https://play.google.com/store/apps/details?id=com.mncland.gjspatrol.app">
@@ -221,32 +221,32 @@ export default function Footer({ lang_code }) {
                     </div>
                   ) : (
                     <div className="list-link__body flex flex-col gap-4 items-start">
-                      <Link to="/en/about/career">
+                      <Link href="/en/about/career">
                         <p className="flex items-center gap-4">
                           <span className="dot w-2 h-2"> </span>
                           Career at GJS
                         </p>
                       </Link>
-                      <Link to="https://www.jobsmnc.co.id/" target="_blank">
+                      <Link href="https://www.jobsmnc.co.id/" target="_blank">
                         <p className="flex items-center gap-4">
                           <span className="dot w-2 h-2"> </span>
                           Career at MNC Group
                         </p>
                       </Link>
-                      <Link to="https://www.mncgroup.com/business-unit" target="_blank">
+                      <Link href="https://www.mncgroup.com/business-unit" target="_blank">
                         <p className="flex items-center gap-4">
                           <span className="dot w-2 h-2"> </span>
                           MNC Group Business
                         </p>
                       </Link>
-                      <Link to="/en/sitemap">
+                      <Link href="/en/sitemap">
                         <p className="flex items-center gap-4">
                           <span className="dot w-2 h-2"> </span>
                           Sitemap
                         </p>
                       </Link>
                       <p className="flex gap-4 text-center w-full justify-center">
-                        <Link to={lang_code === 'id' ? '/id' : '/en'} className="hidden md:block">
+                        <Link href={lang_code === 'id' ? '/id' : '/en'} className="hidden md:block">
                           <img src="/images/footer/Logo-GJS.jpg" alt="footer-logo" className="rounded-5" />
                         </Link>
                         <a target="_blank" href="https://play.google.com/store/apps/details?id=com.mncland.gjspatrol.app">
@@ -269,9 +269,9 @@ export default function Footer({ lang_code }) {
                 </a>
               </p>
               <p className="text-base color-neutral-black-100 leading-160 font-medium text-center">Copyright © 2025 GJS. All Rights Reserved.</p>
-              <Link to="https://www.mncland.com/" target="_blank">
+              <a href="https://www.mncland.com/" target="_blank">
                 <img src="/images/logo/mnc-tourism-indonesia.webp" width="108" height="40" alt="footer-logo" />
-              </Link>
+              </a>
             </div>
           </div>
         </div>

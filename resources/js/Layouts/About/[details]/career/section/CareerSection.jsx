@@ -1,13 +1,13 @@
 import { useState, useMemo } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { Link, usePage } from '@inertiajs/react';
 import career from '../../../../../data/career.json';
 import BackNavigation from '../../../../../components/BackNavigation';
 import '../career.css';
 
 export default function CareerSection({ lang_code }) {
-  const location = useLocation();
+  const { url } = usePage();
 
-  const backPath = location.pathname.startsWith('/en') ? '/en' : '/id';
+  const backPath = url.startsWith('/en') ? '/en' : '/id';
 
   const data_career = career.career;
   const count_career = career.career.length;
@@ -115,7 +115,7 @@ export default function CareerSection({ lang_code }) {
                     {searchNews.map((item) => (
                       <tr key={item.id}>
                         <th scope="row" className="px-10 py-4 font-semibold text-base leading-[160%] color-primary-blue-100 text-left">
-                          <Link to={`/id/tentang/karir/${item.id}`}>{item.job_position}</Link>
+                          <Link href={`/id/tentang/karir/${item.id}`}>{item.job_position}</Link>
                         </th>
 
                         <td className="px-10 py-4 font-normal text-base leading-[160%] color-neutral-black-100 text-left">{item.location}</td>
@@ -156,7 +156,7 @@ export default function CareerSection({ lang_code }) {
         <div className="career">
           <div className="header-career py-[72px]">
             {/* Navigation */}
-            <Link to={backPath} className="flex flex-row gap-4 items-center">
+            <Link href={backPath} className="flex flex-row gap-4 items-center">
               <div className="flex flex-row gap-4 w-10/12 mx-auto items-center">
                 <div className="arrow w-[48px] h-[48px] bg-neutral-white-100 p-4 rounded-[32px]">
                   <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -201,7 +201,7 @@ export default function CareerSection({ lang_code }) {
                     boxShadow: '0px 20px 40px rgba(33, 36, 58, 0.04)',
                   }}
                 >
-                  <Link to={`/id/tentang/karir/${item.id}`} className="text-2xl leading-[150%] font-semibold color-primary-blue-100">
+                  <Link href={`/id/tentang/karir/${item.id}`} className="text-2xl leading-[150%] font-semibold color-primary-blue-100">
                     {item.job_position}
                   </Link>
                   <h6 className="font-normal text-base leading-[160%] color-neutral-black-100">{item.location}</h6>

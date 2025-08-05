@@ -45,7 +45,7 @@
     <meta charset="utf-8" />
     <title>Dashboard | Pro Billiard Center</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta content="Admin PBC" name="PBC panel admin" />
+    <meta content="Admin GJS" name="GJS panel admin" />
     <meta content="Panel Admin" name="author" />
     <meta name="csrf-token" content="{{ csrf_token() }}">
     @include('include.style')
@@ -137,19 +137,19 @@
                 <!-- Dark Logo-->
                 <a href="index.html" class="logo logo-dark">
                     <span class="logo-sm">
-                        <img src="{{ asset('/images/pbc_logo.png') }} " alt="" height="50">
+                        <img src="{{ asset('images/logo/logo_gjs.png') }} " alt="" height="50">
                     </span>
                     <span class="logo-lg">
-                        <img src="{{ asset('/images/pbc_logo.png') }} " alt="" height="50">
+                        <img src="{{ asset('images/logo/logo_gjs.png') }} " alt="" height="50">
                     </span>
                 </a>
                 <!-- Light Logo-->
                 <a href="index.html" class="logo logo-light">
                     <span class="logo-sm">
-                        <img src="{{ asset('/images/pbc_logo.png') }} " alt="" height="50">
+                        <img src="{{ asset('images/logo/logo_gjs.png') }} " alt="" height="50">
                     </span>
                     <span class="logo-lg">
-                        <img src="{{ asset('/images/pbc_logo.png') }} " alt="" height="50">
+                        <img src="{{ asset('images/logo/logo_gjs.png') }} " alt="" height="50">
                     </span>
                 </a>
                 <button type="button" class="btn btn-sm p-0 fs-20 header-item float-end btn-vertical-sm-hover"

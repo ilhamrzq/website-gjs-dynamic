@@ -34,7 +34,7 @@ export default function ProductNavbarDropdown({ lang_code }) {
               <div className="col-span-8 w-full self-center">
                 <div className="flex flex-col gap-6">
                   {data.map((product) => (
-                    <Link key={product.id} to={lang_code === 'id' ? product.link_id : product.link_en} className="bg-primary-blue-20 rounded-xl px-8">
+                    <Link key={product.id} href={lang_code === 'id' ? product.link_id : product.link_en} className="bg-primary-blue-20 rounded-xl px-8">
                       <div className="grid grid-flow-col grid-cols-12 h-full content-center">
                         <div className="col-span-6 h-full py-20 px-10">
                           <h1 className="text-[28px] leading-[150%] font-bold color-neutral-black-100">{product.title}</h1>

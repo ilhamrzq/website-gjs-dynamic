@@ -1,11 +1,9 @@
 import React, { useMemo } from 'react';
-import { Link, useParams } from 'react-router-dom';
+import { Link } from '@inertiajs/react';
 import dataNews from './../../../../data/news.json';
 import '../newsDetail.css';
 
-export default function NewsDetailSection({ lang_code }) {
-  const { id } = useParams();
-
+export default function NewsDetailSection({ lang_code, id }) {
   // Get news data based on language
   const data_news = useMemo(() => {
     return lang_code === 'id' ? dataNews.news_id : dataNews.news_en;
@@ -30,7 +28,7 @@ export default function NewsDetailSection({ lang_code }) {
       <div className="content-news-detail__page mt-10 w-10/12 mx-auto">
         <div className="text-center py-20">
           <h1 className="text-2xl font-bold text-red-500">News not found</h1>
-          <Link to={lang_code === 'id' ? '/id/berita' : '/en/news'} className="text-blue-500 underline mt-4 inline-block">
+          <Link href={lang_code === 'id' ? '/id/berita' : '/en/news'} className="text-blue-500 underline mt-4 inline-block">
             Back to News
           </Link>
         </div>
@@ -43,9 +41,14 @@ export default function NewsDetailSection({ lang_code }) {
   const recentNewsTitle = lang_code === 'id' ? 'Berita Terbaru' : 'Latest News';
   const backButtonText = lang_code === 'id' ? 'Berita' : 'News';
 
+  console.log('ID dari props:', id);
+  console.log('Lang Code dari props:', lang_code);
+  console.log("news:", news);
+console.log("another_news:", another_news);
+
   return (
     <div className="content-news-detail__page mt-10 w-10/12 mx-auto">
-      <Link to={backLink} className="header-newspage">
+      <Link href={backLink} className="header-newspage">
         <div className="flex flex-row justify-between my-14">
           <div className="back-navigation flex flex-row items-center gap-4">
             <span className="material-symbols-outlined text-2xl"> arrow_back </span>
@@ -82,7 +85,7 @@ export default function NewsDetailSection({ lang_code }) {
             </div>
             <div className="list-recent mt-8">
               {another_news.map((item) => (
-                <Link key={item.id} to={`${newsDetailLink}/${item.id}`} className="recent flex flex-col gap-4">
+                <Link key={item.id} href={`${newsDetailLink}/${item.id}`} className="recent flex flex-col gap-4">
                   <img src={item.img} alt={item.title} />
                   <h3 className="text-black text-base font-semibold mb-4">{item.title}</h3>
                 </Link>

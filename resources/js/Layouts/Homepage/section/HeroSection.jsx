@@ -72,7 +72,7 @@ export default function HeroSection({ lang_code }) {
             <div className="grid grid-flow-col grid-cols-4 w-full info-hero">
               {datas &&
                 datas.map((data) => (
-                  <Link to={data.href} className="col-span-1 py-6 info" key={data.id}>
+                  <Link href={data.href} className="col-span-1 py-6 info" key={data.id}>
                     <div dangerouslySetInnerHTML={{ __html: data.icon }} className="text-white font-bold text-[40px] text-center flex flex-row justify-center mb-4" />
                     <p className="font-bold fs-20 leading-160 color-neutral-white-100 text-center">{data.name}</p>
                   </Link>
@@ -137,7 +137,7 @@ export default function HeroSection({ lang_code }) {
       {/* <div className="list-count-summary grid grid-cols-2 mt-20">
           {datas &&
             datas.map((data, index) => (
-              <Link to={data.href} className="summary text-center py-4 px-10 border border-gray-300" key={index}>
+              <Link href={data.href} className="summary text-center py-4 px-10 border border-gray-300" key={index}>
                 <span className="material-symbols-outlined fs-30">{data.mobile_icon}</span>
                 <h1 className="fs-20 font-bold leading-160 color-primary-blue-100">{data.name}</h1>
               </Link>
@@ -228,7 +228,7 @@ export default function HeroSection({ lang_code }) {
 
 //         <div className="grid grid-flow-col grid-cols-4 w-full info-hero">
 //           {datas.map((data) => (
-//             <Link to={data.href} className="col-span-1 py-6 info" key={data.id}>
+//             <Link href={data.href} className="col-span-1 py-6 info" key={data.id}>
 //               <div dangerouslySetInnerHTML={{ __html: data.icon }} className="text-white font-bold text-[40px] text-center flex flex-row justify-center mb-4"></div>
 //               <p className="font-bold fs-20 leading-160 color-neutral-white-100 text-center">{data.name}</p>
 //             </Link>

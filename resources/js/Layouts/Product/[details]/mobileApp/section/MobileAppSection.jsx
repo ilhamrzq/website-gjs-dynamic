@@ -1,4 +1,4 @@
-import { useLocation } from 'react-router-dom';
+import { usePage } from '@inertiajs/react';
 import BackNavigation from '../../../../../components/BackNavigation';
 import Icon from '../../../../../components/Icon';
 import ListUniqueSellingPoint from '../../../../../components/ListUniqueSellingPoint';
@@ -6,9 +6,9 @@ import Maps from '../../../../../components/Maps';
 import '../mobileApp.css';
 
 export default function MobileAppSection({ lang_code }) {
-  const location = useLocation();
+  const { url } = usePage();
 
-  const backPath = location.pathname.startsWith('/en') ? '/en' : '/id';
+  const backPath = url.startsWith('/en') ? '/en' : '/id';
 
   return (
     <div className="content-newspage mt-16">

@@ -6,7 +6,6 @@
     { "to": "/id/tentang/klien", "icon": "handshake", "name": "Klien" },
     { "to": "/id/tentang/struktur", "icon": "account_tree", "name": "Struktur Perusahaan" },
     { "to": "/id/tentang/penghargaan", "icon": "military_tech", "name": "Penghargaan & Sertifikat" },
-    { "to": "/id/tentang/suratizin", "icon": "workspace_premium", "name": "Surat Izin Operasional" },
     { "to": "/id/tentang/karir", "icon": "work_outline", "name": "Karir" }
   ],
   "about_en": [
@@ -16,7 +15,6 @@
     { "to": "/en/about/clients", "icon": "handshake", "name": "Clients" },
     { "to": "/en/about/structure", "icon": "account_tree", "name": "Corporate Structure" },
     { "to": "/en/about/awards", "icon": "military_tech", "name": "Award & Certification" },
-    { "to": "/en/about/license", "icon": "workspace_premium", "name": "Operating License" },
     { "to": "/en/about/career", "icon": "work_outline", "name": "Career" }
   ]
 }

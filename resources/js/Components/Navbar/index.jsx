@@ -56,7 +56,7 @@ export default function Navbar({ lang_code, direct_link_id, direct_link_en }) {
 
             <div className="my-[10px] flex gap-4 items-center">
               {/* Contact Button */}
-              <Link to={viewContact.to} className="bg-neutral-white-100 rounded px-4 py-[2px] font-medium color-primary-blue-100 text-[14px]">
+              <Link href={viewContact.to} className="bg-neutral-white-100 rounded px-4 py-[2px] font-medium color-primary-blue-100 text-[14px]">
                 {viewContact.label}
               </Link>
               <div className="w-[1px] h-[25px] bg-neutral-white-20"></div>
@@ -81,14 +81,14 @@ export default function Navbar({ lang_code, direct_link_id, direct_link_en }) {
                     <div className="bg-white rounded-md absolute right-0 w-44 mt-2 shadow-2xl z-30">
                       <div className="p-4 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownHoverButton">
                         <div>
-                          <Link to={direct_link_id} className={`flex p-4 gap-4 items-center text-[#233672] ${currentLang === 'id' ? 'bg-primary-blue-20 rounded-md' : ''}`}>
+                          <Link href={direct_link_id} className={`flex p-4 gap-4 items-center text-[#233672] ${currentLang === 'id' ? 'bg-primary-blue-20 rounded-md' : ''}`}>
                             <div className={`rounded-3xl ${currentLang === 'id' ? 'bg-primary-blue-20 p-[4px]' : ''}`}>
                               <img src="/images/language/lang-id.png" alt="lang-id" style={{ imageRendering: 'pixelated' }} />
                             </div>
                             Indonesia
                           </Link>
 
-                          <Link to={direct_link_en} className={`flex p-4 gap-4 items-center text-[#233672] ${currentLang === 'en' ? 'bg-primary-blue-20 rounded-md' : ''}`}>
+                          <Link href={direct_link_en} className={`flex p-4 gap-4 items-center text-[#233672] ${currentLang === 'en' ? 'bg-primary-blue-20 rounded-md' : ''}`}>
                             <div className={`rounded-3xl ${currentLang === 'en' ? 'bg-primary-blue-20 p-[4px]' : ''}`}>
                               <img src="/images/language/lang-en.png" alt="lang-en" style={{ imageRendering: 'pixelated' }} />
                             </div>
@@ -103,13 +103,13 @@ export default function Navbar({ lang_code, direct_link_id, direct_link_en }) {
                       <div className="p-4 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownHoverButton">
                         {currentUrl === '/id/kontak' || currentUrl === '/en/contact' || currentUrl === '/' || currentUrl === '/en/home' ? (
                           <div>
-                            <Link to={direct_link_id} className={`flex p-4 gap-4 items-center text-[#233672] ${currentLang === 'id' ? 'bg-primary-blue-20 rounded-md' : ''}`}>
+                            <Link href={direct_link_id} className={`flex p-4 gap-4 items-center text-[#233672] ${currentLang === 'id' ? 'bg-primary-blue-20 rounded-md' : ''}`}>
                               <div className={`rounded-3xl ${currentLang === 'id' ? 'bg-primary-blue-20 p-[4px]' : ''}`}>
                                 <img src="/images/language/lang-id.png" alt="lang-id" style={{ imageRendering: 'pixelated' }} />
                               </div>
                               Indonesia
                             </Link>
-                            <Link to={direct_link_en} className={`flex p-4 gap-4 items-center text-[#233672] ${currentLang === 'en' ? 'bg-primary-blue-20 rounded-md' : ''}`}>
+                            <Link href={direct_link_en} className={`flex p-4 gap-4 items-center text-[#233672] ${currentLang === 'en' ? 'bg-primary-blue-20 rounded-md' : ''}`}>
                               <div className={`rounded-3xl ${currentLang === 'en' ? 'bg-primary-blue-20 p-[4px]' : ''}`}>
                                 <img src="/images/language/lang-en.png" alt="lang-en" style={{ imageRendering: 'pixelated' }} />
                               </div>
@@ -118,13 +118,13 @@ export default function Navbar({ lang_code, direct_link_id, direct_link_en }) {
                           </div>
                         ) : (
                           <div>
-                            <Link to={direct_link_id} className={`flex p-4 gap-4 items-center text-[#233672] ${currentLang === 'id' ? 'bg-primary-blue-20 rounded-md' : ''}`}>
+                            <Link href={direct_link_id} className={`flex p-4 gap-4 items-center text-[#233672] ${currentLang === 'id' ? 'bg-primary-blue-20 rounded-md' : ''}`}>
                               <div className={`rounded-3xl ${currentLang === 'id' ? 'bg-primary-blue-20 p-[4px]' : ''}`}>
                                 <img src="/images/language/lang-id.png" alt="lang-id" style={{ imageRendering: 'pixelated' }} />
                               </div>
                               Indonesia
                             </Link>
-                            <Link to={direct_link_en} className={`flex p-4 gap-4 items-center text-[#233672] ${currentLang === 'en' ? 'bg-primary-blue-20 rounded-md' : ''}`}>
+                            <Link href={direct_link_en} className={`flex p-4 gap-4 items-center text-[#233672] ${currentLang === 'en' ? 'bg-primary-blue-20 rounded-md' : ''}`}>
                               <div className={`rounded-3xl ${currentLang === 'en' ? 'bg-primary-blue-20 p-[4px]' : ''}`}>
                                 <img src="/images/language/lang-en.png" alt="lang-en" style={{ imageRendering: 'pixelated' }} />
                               </div>
@@ -143,7 +143,7 @@ export default function Navbar({ lang_code, direct_link_id, direct_link_en }) {
           {/* Logo GJS */}
           <div className="flex flex-row justify-between bg-neutral-white-100 items-center h-[65px]">
             <div className="logo-gjs__mobile p-4">
-              <Link to={currentLang === 'en' ? '/en' : '/'}>
+              <Link href={currentLang === 'en' ? '/en' : '/'}>
                 <img src="/images/logo/logo_gjs.png" alt="logo-gjs" className="relative top-[-35px] w-[115px] h-[115px]" />
               </Link>
             </div>
@@ -172,7 +172,7 @@ export default function Navbar({ lang_code, direct_link_id, direct_link_en }) {
                         <h1 className="title-navbar font-bold fs-18 leading-[160%] color-neutral-black-100">Tentang</h1>
 
                         {aboutDatas.map((data, index) => (
-                          <Link key={index} to={data.to} className="flex flex-row justify-between">
+                          <Link key={index} href={data.to} className="flex flex-row justify-between">
                             <h3 className="color-neutral-black-60 text-base leading-[160%] font-normal">{data.label}</h3>
                             <ArrowIcon />
                           </Link>
@@ -184,7 +184,7 @@ export default function Navbar({ lang_code, direct_link_id, direct_link_en }) {
                         <h1 className="title-navbar font-bold fs-18 leading-[160%] color-neutral-black-100">Layanan</h1>
 
                         {serviceDatas.map((data, index) => (
-                          <Link key={index} to={data.to} className="flex flex-row justify-between">
+                          <Link key={index} href={data.to} className="flex flex-row justify-between">
                             <h3 className="color-neutral-black-60 text-base leading-[160%] font-normal">{data.label}</h3>
                             <ArrowIcon />
                           </Link>
@@ -196,7 +196,7 @@ export default function Navbar({ lang_code, direct_link_id, direct_link_en }) {
                         <h1 className="title-navbar font-bold fs-18 leading-[160%] color-neutral-black-100">Produk</h1>
 
                         {productDatas.map((data, index) => (
-                          <Link key={index} to={data.to} className="flex flex-row justify-between">
+                          <Link key={index} href={data.to} className="flex flex-row justify-between">
                             <h3 className="color-neutral-black-60 text-base leading-[160%] font-normal">{data.label}</h3>
                             <ArrowIcon />
                           </Link>
@@ -205,11 +205,11 @@ export default function Navbar({ lang_code, direct_link_id, direct_link_en }) {
 
                       {/* News */}
                       {currentLang === 'id' ? (
-                        <Link to="/id/berita" className="flex flex-col gap-2">
+                        <Link href="/id/berita" className="flex flex-col gap-2">
                           <h1 className="title-navbar font-bold fs-18 leading-[160%] color-neutral-black-100">Berita</h1>
                         </Link>
                       ) : (
-                        <Link to="/en/news" className="flex flex-col gap-2">
+                        <Link href="/en/news" className="flex flex-col gap-2">
                           <h1 className="title-navbar font-bold fs-18 leading-[160%] color-neutral-black-100">News</h1>
                         </Link>
                       )}
@@ -256,7 +256,7 @@ export default function Navbar({ lang_code, direct_link_id, direct_link_en }) {
               </div>
               <div className="right-top-navbar flex gap-3">
                 {/* Contact Button */}
-                <Link to={viewContact.to} className="bg-white text-primary px-4 py-1 rounded-sm text-medium fs-14 color-primary-blue-100 text-center flex items-center">
+                <Link href={viewContact.to} className="bg-white text-primary px-4 py-1 rounded-sm text-medium fs-14 color-primary-blue-100 text-center flex items-center">
                   {viewContact.label}
                 </Link>
                 <div className="w-[1px] bg-white"></div>
@@ -272,13 +272,13 @@ export default function Navbar({ lang_code, direct_link_id, direct_link_en }) {
                     <div className="p-4 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownHoverButton">
                       {currentUrl === '/id/kontak' || currentUrl === '/en/contact' ? (
                         <div>
-                          <Link to={direct_link_id} className={`flex p-4 gap-4 items-center rounded-md text-[#233672] ${currentLang === 'id' ? 'bg-primary-blue-20' : 'bg-primary-20'}`}>
+                          <Link href={direct_link_id} className={`flex p-4 gap-4 items-center rounded-md text-[#233672] ${currentLang === 'id' ? 'bg-primary-blue-20' : 'bg-primary-20'}`}>
                             <div className={`rounded-3xl p-[4px] ${currentLang === 'id' ? 'bg-primary-blue-20' : ''}`}>
                               <img src="/images/language/lang-id.png" alt="lang-id" style={{ imageRendering: 'pixelated' }} />
                             </div>
                             Indonesia
                           </Link>
-                          <Link to={direct_link_en} className={`flex p-4 gap-4 items-center rounded-md text-[#233672] ${currentLang === 'en' ? 'bg-primary-blue-20' : 'bg-primary-20'}`}>
+                          <Link href={direct_link_en} className={`flex p-4 gap-4 items-center rounded-md text-[#233672] ${currentLang === 'en' ? 'bg-primary-blue-20' : 'bg-primary-20'}`}>
                             <div className={`rounded-3xl p-[4px] ${currentLang === 'en' ? 'bg-primary-blue-20' : ''}`}>
                               <img src="/images/language/lang-en.png" alt="lang-en" style={{ imageRendering: 'pixelated' }} />
                             </div>
@@ -287,13 +287,13 @@ export default function Navbar({ lang_code, direct_link_id, direct_link_en }) {
                         </div>
                       ) : (
                         <div>
-                          <Link to={direct_link_id} className={`flex p-4 gap-4 items-center rounded-md text-[#233672] ${currentLang === 'id' ? 'bg-primary-blue-20' : 'bg-primary-20'}`}>
+                          <Link href={direct_link_id} className={`flex p-4 gap-4 items-center rounded-md text-[#233672] ${currentLang === 'id' ? 'bg-primary-blue-20' : 'bg-primary-20'}`}>
                             <div className={`rounded-3xl p-[4px] ${currentLang === 'id' ? 'bg-primary-blue-20' : ''}`}>
                               <img src="/images/language/lang-id.png" alt="lang-id" style={{ imageRendering: 'pixelated' }} />
                             </div>
                             Indonesia
                           </Link>
-                          <Link to={direct_link_en} className={`flex p-4 gap-4 items-center rounded-md text-[#233672] ${currentLang === 'en' ? 'bg-primary-blue-20' : 'bg-primary-20'}`}>
+                          <Link href={direct_link_en} className={`flex p-4 gap-4 items-center rounded-md text-[#233672] ${currentLang === 'en' ? 'bg-primary-blue-20' : 'bg-primary-20'}`}>
                             <div className={`rounded-3xl p-[4px] ${currentLang === 'en' ? 'bg-primary-blue-20' : ''}`}>
                               <img src="/images/language/lang-en.png" alt="lang-en" style={{ imageRendering: 'pixelated' }} />
                             </div>
@@ -316,7 +316,7 @@ export default function Navbar({ lang_code, direct_link_id, direct_link_en }) {
                     <AboutNavbarDropdown lang_code={lang_code} />
                     <ServiceNavbarDropdown lang_code={lang_code} />
                     <div className="hover:scale-105 ease-in-out hover:duration-300">
-                      <Link to={currentLang === 'en' ? '/en' : '/'}>
+                      <Link href={currentLang === 'en' ? '/en' : '/'}>
                         <img src="/images/logo/logo_gjs.png" alt="logo-gjs" className="relative top-[-30px]" />
                       </Link>
                     </div>

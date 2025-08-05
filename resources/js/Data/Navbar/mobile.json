@@ -2,19 +2,19 @@
   "about_id": [
     { "to": "/id/tentang", "label": "Ikhtisar Perusahaan" },
     { "to": "/id/tentang/manajemen", "label": "Manajemen & Direksi" },
+    { "to": "/id/tentang/portofolio", "label": "Portofolio" },
     { "to": "/id/tentang/klien", "label": "Klien" },
     { "to": "/id/tentang/struktur", "label": "Struktur Perusahaan" },
     { "to": "/id/tentang/penghargaan", "label": "Penghargaaan & Sertifikat" },
-    { "to": "/id/tentang/suratizin", "label": "Surat Izin Operasional" },
     { "to": "/id/tentang/karir", "label": "Karir" }
   ],
   "about_en": [
     { "to": "/en/about", "label": "Company Overview" },
     { "to": "/en/about/management", "label": "Management & Directors" },
+    { "to": "/en/about/portfolio", "label": "Portfolio" },
     { "to": "/en/about/clients", "label": "Clients" },
     { "to": "/en/about/structure", "label": "Corporate Structure" },
     { "to": "/en/about/awards", "label": "Awards & Certification" },
-    { "to": "/en/about/license", "label": "Operating License" },
     { "to": "/en/about/career", "label": "Career" }
   ],
   "services_id": [

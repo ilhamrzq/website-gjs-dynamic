@@ -1,13 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import { useParams, Link } from 'react-router-dom';
+import { Link } from '@inertiajs/react';
 import career from '../../../../../../data/career.json';
 import '../careerdetail.css';
 
-export default function CareerDetailSection({ lang_code }) {
+export default function CareerDetailSection({ lang_code, id }) {
   const [showModal, setShowModal] = useState(false);
   const [items, setItems] = useState(null);
-  const { id } = useParams();
-
+  
   const data_career = career.career;
 
   useEffect(() => {
@@ -26,7 +25,7 @@ export default function CareerDetailSection({ lang_code }) {
   return (
     <div className="career">
       <div className="header-career pt-[72px] pb-[28px] w-10/12 mx-auto">
-        <Link to="/id/tentang/karir" className="flex flex-row gap-4 items-center">
+        <Link href="/id/tentang/karir" className="flex flex-row gap-4 items-center">
           <div className="arrow w-[48px] h-[48px] bg-neutral-white-100 p-4 rounded-[32px]">
             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M16 7H3.83L9.42 1.41L8 0L0 8L8 16L9.41 14.59L3.83 9H16V7Z" fill="#233672" />

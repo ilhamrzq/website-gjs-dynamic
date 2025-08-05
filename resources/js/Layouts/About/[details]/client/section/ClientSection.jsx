@@ -1,12 +1,12 @@
 import '../client.css';
 import BackNavigation from '../../../../../components/BackNavigation';
 import data from '../../../../../data/clients.json';
-import { useLocation } from 'react-router-dom';
+import { usePage } from '@inertiajs/react';
 
 export default function ClientSection({ lang_code }) {
-  const location = useLocation();
+  const { url } = usePage();
 
-  const backPath = location.pathname.startsWith('/en') ? '/en' : '/id';
+  const backPath = url.startsWith('/en') ? '/en' : '/id';
 
   return (
     <div className="content-clients">

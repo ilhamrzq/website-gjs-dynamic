@@ -62,8 +62,14 @@ Route::prefix('id')->name('id.')->group(function () {
         ]);
     })->name('tentang.manajemen');
 
+    Route::get('/tentang/portofolio', function () {
+        return Inertia::render("ID/About/[details]/portofolio", [
+            "title" => "Portofolio - Global Jasa Sejahtera",
+        ]);
+    })->name('tentang.portofolio');
+
     Route::get('/tentang/klien', function () {
-        return Inertia::render("ID/About/[details]/clients", [
+        return Inertia::render("ID/About/[details]/client", [
             "title" => "Klien - Global Jasa Sejahtera",
         ]);
     })->name('tentang.klien');
@@ -75,10 +81,11 @@ Route::prefix('id')->name('id.')->group(function () {
     })->name('tentang.struktur');
 
     Route::get('/tentang/penghargaan', function () {
-        return Inertia::render("ID/About/[details]/awards", [
+        return Inertia::render("ID/About/[details]/award", [
             "title" => "Sertifikat - Global Jasa Sejahtera",
         ]);
     })->name('tentang.penghargaan');
+
 
     Route::get('/tentang/suratizin', function () {
         return Inertia::render("ID/About/[details]/license", [
@@ -92,7 +99,7 @@ Route::prefix('id')->name('id.')->group(function () {
         ]);
     })->name('tentang.karir');
 
-    Route::get('/tentang/karir/{id}', function () {
+    Route::get('/tentang/karir/{id}', function ($id) {
         return Inertia::render("ID/About/[details]/career/[id]/index", [
             "title" => "Detail Karir - Global Jasa Sejahtera",
             "id" => $id,
@@ -141,13 +148,13 @@ Route::prefix('id')->name('id.')->group(function () {
         ]);
     })->name('berita');
 
-    Route::get('/berita/{slug}', function ($slug) {
+    Route::get('/berita/{id}', function ($id) {
     return Inertia::render("ID/News/[detail]/index", [
-        "title" => $slug . " - Berita GJS",
-        "slug" => $slug,
+        "id" => $id,
+        "title" => "Berita - Global Jasa Sejahtera",
         ]);
     })->name('berita.detail');
-
+ 
     Route::get('/kontak', function () {
         return Inertia::render("ID/Contact/index", [
             "title" => "Kontak - Global Jasa Sejahtera",
@@ -174,8 +181,14 @@ Route::prefix('en')->name('en.')->group(function () {
         ]);
     })->name('about.management');
 
+    Route::get('/about/portfolio', function () {
+        return Inertia::render("EN/About/[details]/portofolio", [
+            "title" => "Portfolio - Global Jasa Sejahtera",
+        ]);
+    })->name('about.portfolio');
+
     Route::get('/about/clients', function () {
-        return Inertia::render("EN/About/[details]/clients", [
+        return Inertia::render("EN/About/[details]/client", [
             "title" => "Clients - Global Jasa Sejahtera",
         ]);
     })->name('about.clients');
@@ -187,7 +200,7 @@ Route::prefix('en')->name('en.')->group(function () {
     })->name('about.structure');
 
     Route::get('/about/awards', function () {
-        return Inertia::render("EN/About/[details]/awards", [
+        return Inertia::render("EN/About/[details]/award", [
             "title" => "Certificates - Global Jasa Sejahtera",
         ]);
     })->name('about.awards');
@@ -198,15 +211,16 @@ Route::prefix('en')->name('en.')->group(function () {
         ]);
     })->name('about.license');
 
-    Route::get('/about/career/[', function () {
+    Route::get('/about/career/', function () {
         return Inertia::render("EN/About/[details]/career/index", [
-            "title" => "Karir - Global Jasa Sejahtera",
+            "title" => "Career - Global Jasa Sejahtera",
         ]);
     })->name('about.career');
 
-    Route::get('/about/career', function () {
+    Route::get('/about/career/{id}', function () {
         return Inertia::render("EN/About/[details]/career/[id]/index", [
-            "title" => "Detail Karir - Global Jasa Sejahtera",
+            "title" => "Career Detail - Global Jasa Sejahtera",
+            "id" => $id,
         ]);
     })->name('about.careerDetail');
 
@@ -252,12 +266,11 @@ Route::prefix('en')->name('en.')->group(function () {
         ]);
     })->name('news');
 
-    Route::get('/news/{slug}', function ($slug) {
-    return Inertia::render("EN/News/[detail]/index", [
-        "title" => $slug . " - GJS News",
-        "slug" => $slug,
+    Route::get('/news/{id}', function ($id) {
+        return Inertia::render("EN/News/[detail]/index", [
+            "title" => $id . " - GJS News", 
         ]);
-    })->name('berita.detail');
+    })->name('news.detail');
 
     Route::get('/contact', function () {
         return Inertia::render("EN/Contact/index", [

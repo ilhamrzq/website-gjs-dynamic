@@ -25,7 +25,7 @@ export default function AboutSection({ lang_code }) {
               : 'Global Jasa Sejahtera. In the year 2009, the MNC group expanded its business to include employment services to provide building management services through the establishment of its subsidiary, PT Global Jasa Sejahtera. Services by GJS is to complement our main business objectives in Property Management. Services offered by GJS covers and includes Property Management, Security Services, office assistants office-boy, receptionists, messengers and etc.'}
           </p>
           {/* CTA Read More */}
-          <Link to={readMoreAbout.to} className="button-primary text-white text-base mt-9 inline-flex items-center gap-2">
+          <Link href={readMoreAbout.to} className="button-primary text-white text-base mt-9 inline-flex items-center gap-2">
             {readMoreAbout.label}
             <span className="material-symbols-outlined text-base">arrow_forward</span>
           </Link>
@@ -75,7 +75,7 @@ export default function AboutSection({ lang_code }) {
               : 'Global Jasa Sejahtera. In the year 2009, the MNC group expanded its business to include employment services; to provide building management services through the establishment of its subsidiary, PT Global Jasa Sejahtera.'}
           </p>
           {/* Read More Button */}
-          <Link to={readMoreAbout.to} className="button-primary text-white text-base mt-9 inline-flex items-center gap-2">
+          <Link href={readMoreAbout.to} className="button-primary text-white text-base mt-9 inline-flex items-center gap-2">
             {readMoreAbout.label}
             <span className="material-symbols-outlined text-base">arrow_forward</span>
           </Link>

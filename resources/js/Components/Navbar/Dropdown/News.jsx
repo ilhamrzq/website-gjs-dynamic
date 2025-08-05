@@ -8,7 +8,7 @@ export default function NewsNavbarDropdown({ lang_code }) {
     <div className="flex items-center rounded-4">
       <div className="px-4 rounded-4 list-navbar">
         {/* News Navbar */}
-        <Link to={newsPageNav.to} className="font-medium text-base text-center flex flex-row items-center gap-2 cursor-pointer">
+        <Link href={newsPageNav.to} className="font-medium text-base text-center flex flex-row items-center gap-2 cursor-pointer">
           {newsPageNav.label}
         </Link>
       </div>

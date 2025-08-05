@@ -1,12 +1,12 @@
 import '../structure.css';
-import { useLocation } from 'react-router-dom';
+import { usePage } from '@inertiajs/react';
 import BackNavigation from '../../../../../components/BackNavigation';
-import { Link } from 'react-router-dom';
+import { Link } from '@inertiajs/react';
 
 export default function StructureSection({ lang_code }) {
-  const location = useLocation();
+  const { url } = usePage();
 
-  const backPath = location.pathname.startsWith('/en') ? '/en' : '/id';
+  const backPath = url.startsWith('/en') ? '/en' : '/id';
 
   return (
     <div className="content-about">
@@ -57,7 +57,7 @@ export default function StructureSection({ lang_code }) {
               <img src="/images/about/arrow.png" alt="" />
               <div className="card card-active px-16 py-6 ml-8 mb-32">
                 <div className="mnc-land flex flex-col items-center">
-                  <Link to={lang_code === 'id' ? '/id' : '/en'}>
+                  <Link href={lang_code === 'id' ? '/id' : '/en'}>
                     <img src="/images/about/structure-gjs.png" alt="logo-GJS" className="hover:opacity-80" />
                   </Link>
                   <h1 className="color-neutral-black-100 fs-18 text-center font-semibold mt-6">PT Global Jasa Sejahtera</h1>
@@ -129,7 +129,7 @@ export default function StructureSection({ lang_code }) {
 
             <div className="flex flex-col items-center">
               <div className="bg-white card-active border-[4px] p-3 rounded-[8px]">
-                <Link to={lang_code === 'id' ? '/id' : '/en'}>
+                <Link href={lang_code === 'id' ? '/id' : '/en'}>
                   <img src="/images/about/structure-gjs.png" alt="logo-GJS" className="w-[165px] h-[70px] object-contain hover:opacity-80" />
                 </Link>
               </div>

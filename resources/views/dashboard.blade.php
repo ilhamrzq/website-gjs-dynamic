@@ -28,7 +28,7 @@
                                 <div class="flex-grow-1">
                                     <h4 class="fs-16 mb-1">{{ __('Hello,') }} {{ Auth::user()->name }} </h4>
                                     <p class="text-muted mb-0">
-                                        {{ __("Here's what's happening with Pro Billiard Center today.") }}</p>
+                                        {{ __("In Here's, you can maintain the Client and News of GJS.") }}</p>
                                 </div>
                                 {{-- <div class="mt-3 mt-lg-0">
                                     <form action="javascript:void(0);">

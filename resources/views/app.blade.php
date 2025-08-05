@@ -8,7 +8,7 @@
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
-        <link rel="icon" href="{{ asset('images/pbc_logo.png') }}" type="image/png">
+        <link rel="icon" href="{{ asset('images/logo/logo_gjs.png') }}" type="image/png">
         <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
 
         <!-- Scripts -->

@@ -6,12 +6,12 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import data_awards from '../../../../../data/awards.json';
 import BackNavigation from '../../../../../components/BackNavigation';
-import { useLocation } from '@inertiajs/react';
+import { usePage } from '@inertiajs/react';
 
 export default function AwardSection({ lang_code }) {
-  const location = useLocation();
+  const { url } = usePage();
 
-  const backPath = location.pathname.startsWith('/en') ? '/en' : '/id';
+  const backPath = url.startsWith('/en') ? '/en' : '/id';
 
   const [selectedAward, setSelectedAward] = useState(null);
   const [modal_penghargaan, setModalPenghargaan] = useState(false);

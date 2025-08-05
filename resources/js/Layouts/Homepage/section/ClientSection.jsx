@@ -43,7 +43,7 @@ export default function ClientSection({ lang_code }) {
 
         {/* CTA View More */}
         <div className="mx-auto text-center py-14">
-          <Link to={viewMoreClient.to} className="button-primary text-white inline-flex items-center gap-2">
+          <Link href={viewMoreClient.to} className="button-primary text-white inline-flex items-center gap-2">
             {viewMoreClient.label}
             <span className="material-symbols-outlined text-base">arrow_forward</span>
           </Link>

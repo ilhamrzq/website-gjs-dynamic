@@ -1,6 +1,6 @@
 import { useState, useEffect, useMemo } from 'react';
-import { Link } from 'react-router-dom';
-import { useLocation } from 'react-router-dom';
+import { Link } from '@inertiajs/react';
+import { usePage } from '@inertiajs/react';
 import BackNavigation from '../../../components/BackNavigation';
 import dataNews from '../../../data/news.json';
 
@@ -125,9 +125,9 @@ export default function NewsSection({ lang_code }) {
     setSelectedCategory(e.target.value);
   };
 
-  const location = useLocation();
+  const { url } = usePage();
 
-  const backPath = location.pathname.startsWith('/en') ? '/en' : '/id';
+  const backPath = url.startsWith('/en') ? '/en' : '/id';
 
   return (
     <>
@@ -219,7 +219,7 @@ export default function NewsSection({ lang_code }) {
                         </p>
                         <h3 className="mb-2 font-semibold text-2xl text-primary">{item_news.title}</h3>
                         <p className="mb-8 text-subtitle text-justify mt-4">{item_news.thumbnail_desc}</p>
-                        <Link to={newsDetail.to} className="button-secondary">
+                        <Link href={newsDetail.to} className="button-secondary">
                           {newsDetail.label}
                         </Link>
                       </div>

@@ -1,16 +1,16 @@
-import { Link, useLocation } from 'react-router-dom';
+import { Link, usePage } from '@inertiajs/react';
 import '../portofolio.css';
 
 export default function ImageSection({ lang_code }) {
-  const location = useLocation();
+  const { url } = usePage();
 
-  const backPath = location.pathname.startsWith('/en') ? '/en' : '/id';
+  const backPath = url.startsWith('/en') ? '/en' : '/id';
 
   return (
     <div className="content-newspage">
       <div className="training-center__service relative hidden md:block">
         <div className="header-career py-[72px] w-10/12 mx-auto">
-          <Link to={backPath} className="flex flex-row gap-4 items-center">
+          <Link href={backPath} className="flex flex-row gap-4 items-center">
             <div className="arrow w-[48px] h-[48px] bg-neutral-white-100 p-4 rounded-[32px]">
               <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M16 7H3.83L9.42 1.41L8 0L0 8L8 16L9.41 14.59L3.83 9H16V7Z" fill="#233672" />
@@ -35,7 +35,7 @@ export default function ImageSection({ lang_code }) {
 
       <div className="training-center__service_mobile relative block md:hidden">
         <div className="header-career py-[72px] w-10/12 mx-auto">
-          <Link to={backPath} className="flex flex-row gap-4 items-center">
+          <Link href={backPath} className="flex flex-row gap-4 items-center">
             <div className="arrow w-[48px] h-[48px] bg-neutral-white-100 p-4 rounded-[32px]">
               <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M16 7H3.83L9.42 1.41L8 0L0 8L8 16L9.41 14.59L3.83 9H16V7Z" fill="#233672" />

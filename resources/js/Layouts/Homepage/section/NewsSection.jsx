@@ -43,7 +43,7 @@ export default function NewsSection({ lang_code }) {
                     </p>
                     <h3 className="mb-2 font-semibold text-2xl text-primary truncate hover:text-clip">{item.title}</h3>
                     <p className="mb-8 text-subtitle text-justify flex-1">{item.thumbnail_desc}</p>
-                    <Link to={newsDetail.to} className="button-secondary w-max self-start mt-auto">
+                    <Link href={newsDetail.to} className="button-secondary w-max self-start mt-auto">
                       {newsDetail.label}
                     </Link>
                   </div>
@@ -56,7 +56,7 @@ export default function NewsSection({ lang_code }) {
 
       {/* CTA All News */}
       <div className="mx-auto text-center my-[52px]">
-        <Link to={viewMoreNews.to} className="button-primary text-white inline-flex items-center gap-2">
+        <Link href={viewMoreNews.to} className="button-primary text-white inline-flex items-center gap-2">
           {viewMoreNews.label}
           <span className="material-symbols-outlined text-base">arrow_forward</span>
         </Link>

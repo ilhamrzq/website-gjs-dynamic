@@ -1,11 +1,11 @@
-import { useLocation } from 'react-router-dom';
+import { usePage } from '@inertiajs/react';
 import BackNavigation from '../../../../../components/BackNavigation';
 import data from '../../../../../data/structure.json';
 
 export default function ManagementSection({ lang_code }) {
-  const location = useLocation();
+  const { url } = usePage();
 
-  const backPath = location.pathname.startsWith('/en') ? '/en' : '/id';
+  const backPath = url.startsWith('/en') ? '/en' : '/id';
 
   const data_commissioners = lang_code === 'id' ? data.data_commissioners_id : data.data_commissioners_en;
   const data_directors = lang_code === 'id' ? data.data_directors_id : data.data_directors_en;
