@@ -3428,8 +3428,8 @@ fieldset:disabled .btn {
 }
 .btn-primary {
     --vz-btn-color: #fff;
-    --vz-btn-bg: #212529;
-    --vz-btn-border-color: #212529;
+    --vz-btn-bg: #233672;
+    --vz-btn-border-color: #233672;
     --vz-btn-hover-color: #fff;
     --vz-btn-hover-bg: #1a1d21;
     --vz-btn-hover-border-color: #33416e;

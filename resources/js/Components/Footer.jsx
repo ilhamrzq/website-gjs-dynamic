@@ -268,7 +268,9 @@ export default function Footer({ lang_code }) {
                   <img src="/images/about/MNCGroup.png" alt="footer-logo" className="h-10 inline-block ml-1" />
                 </a>
               </p>
-              <p className="text-base color-neutral-black-100 leading-160 font-medium text-center">Copyright © 2025 GJS. All Rights Reserved.</p>
+              <p className="text-base color-neutral-black-100 leading-160 font-medium text-center">
+                Copyright © {new Date().getFullYear()} GJS. All Rights Reserved.
+              </p>
               <a href="https://www.mncland.com/" target="_blank">
                 <img src="/images/logo/mnc-tourism-indonesia.webp" width="108" height="40" alt="footer-logo" />
               </a>

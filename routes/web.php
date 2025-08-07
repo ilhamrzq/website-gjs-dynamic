@@ -149,9 +149,9 @@ Route::prefix('id')->name('id.')->group(function () {
     })->name('berita');
 
     Route::get('/berita/{id}', function ($id) {
-    return Inertia::render("ID/News/[detail]/index", [
-        "id" => $id,
-        "title" => "Berita - Global Jasa Sejahtera",
+        return Inertia::render("ID/News/[detail]/index", [
+            "id" => $id,
+            "title" => "News - Global Jasa Sejahtera",
         ]);
     })->name('berita.detail');
  
@@ -268,7 +268,8 @@ Route::prefix('en')->name('en.')->group(function () {
 
     Route::get('/news/{id}', function ($id) {
         return Inertia::render("EN/News/[detail]/index", [
-            "title" => $id . " - GJS News", 
+            "id" => $id,
+            "title" => "News - Global Jasa Sejahtera",
         ]);
     })->name('news.detail');
 

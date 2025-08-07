@@ -12567,10 +12567,10 @@ span.flatpickr-weekday {
         linear,
         right top,
         left top,
-        from(#1a1d21),
-        to(#212529)
+        from(#233672),
+        to(#233672)
     );
-    background: linear-gradient(to left, #1a1d21, #212529);
+    background: linear-gradient(to left, #233672, #233672);
     opacity: 0.9;
 }
 .shape {

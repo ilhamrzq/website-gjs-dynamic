@@ -187,7 +187,7 @@
                             <p class="mb-0 text-muted">&copy;
                                 <script>
                                     document.write(new Date().getFullYear())
-                                </script> Pro Billiard Center.
+                                </script> Global Jasa Sejahtera.
                             </p>
                         </div>
                     </div>

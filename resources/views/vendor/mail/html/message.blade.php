@@ -22,7 +22,7 @@
     <x-slot:footer>
         <x-mail::footer>
             {{-- © {{ date('Y') }} {{ config('app.name') }}. {{ __('All rights reserved.') }} --}}
-            © {{ date('Y') }} Pro Billiard Center. @lang('All rights reserved.')
+            © {{ date('Y') }} Global Jasa Sejahtera. @lang('All rights reserved.')
         </x-mail::footer>
     </x-slot:footer>
 </x-mail::layout>

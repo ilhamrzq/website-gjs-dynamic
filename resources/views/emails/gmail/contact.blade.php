@@ -69,7 +69,7 @@
       <p>{{ $data['message'] }}</p>
     </div>
     <div class="email-footer">
-      &copy; {{ date('Y') }} Pro Billiard Center.
+      &copy; {{ date('Y') }} Global Jasa Sejahtera.
     </div>
   </div>
 </body>

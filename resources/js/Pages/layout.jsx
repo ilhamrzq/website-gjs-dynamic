@@ -1,7 +1,6 @@
 import React from "react";
 import { Toaster } from "react-hot-toast";
 import '../assets/css/index.css';
-import ScrollToTop from '../components/ScrollToTop';
 
 const RootLayout = ({ children }) => {
     return (
@@ -14,7 +13,6 @@ const RootLayout = ({ children }) => {
                 }}
             />
             {children}
-            <ScrollToTop />
         </>
     );
 };

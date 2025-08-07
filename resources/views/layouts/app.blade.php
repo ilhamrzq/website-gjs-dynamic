@@ -43,7 +43,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Dashboard | Pro Billiard Center</title>
+    <title>Admin Panel | Global Jasa Sejahtera</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="Admin GJS" name="GJS panel admin" />
     <meta content="Panel Admin" name="author" />

@@ -69,8 +69,8 @@
 
                         <div class="card-body p-4">
                             <div class="text-center mt-2">
-                                <h5 class="text-black">{{ __('Welcome Back !') }}</h5>
-                                <p class="text-muted"> {{ __('Sign in to continue to Pro Billiard Center.') }} </p>
+                                <h5 class="text-black">{{ __('Welcome Back!') }}</h5>
+                                <p class="text-muted"> {{ __('Sign in to continue to GJS Web Admin Panel.') }} </p>
                                 <x-auth-session-status class="text-success" :status="session('status')" />
                             </div>
                             <div class="p-2 mt-4">

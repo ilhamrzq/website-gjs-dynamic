@@ -28,7 +28,7 @@
                                 <div class="flex-grow-1">
                                     <h4 class="fs-16 mb-1">{{ __('Hello,') }} {{ Auth::user()->name }} </h4>
                                     <p class="text-muted mb-0">
-                                        {{ __("In Here's, you can maintain the Client and News of GJS.") }}</p>
+                                        {{ __("In Here's, you can maintain the Data & CMS of GJS Web.") }}</p>
                                 </div>
                                 {{-- <div class="mt-3 mt-lg-0">
                                     <form action="javascript:void(0);">
@@ -145,7 +145,6 @@
                                     <div class="d-flex align-items-center">
                                         <div class="flex-grow-1 overflow-hidden">
                                             <p class="text-uppercase fw-medium text-muted text-truncate mb-0">NEWS
-                                                EVENTS
                                             </p>
                                         </div>
                                         {{-- <div class="flex-shrink-0">
@@ -161,7 +160,7 @@
                                             </h4>
                                             {{-- <h4 class="fs-22 fw-semibold ff-secondary mb-4"><span class="counter-value"
                                                     data-target="183.35">0</span>M </h4> --}}
-                                            <a href="" class="text-decoration-underline">View all news events</a>
+                                            <a href="" class="text-decoration-underline">View all news</a>
                                         </div>
                                         <div class="avatar-sm flex-shrink-0">
                                             <span class="avatar-title bg-warning-subtle rounded fs-3">

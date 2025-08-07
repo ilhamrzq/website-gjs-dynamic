@@ -41,11 +41,6 @@ export default function NewsDetailSection({ lang_code, id }) {
   const recentNewsTitle = lang_code === 'id' ? 'Berita Terbaru' : 'Latest News';
   const backButtonText = lang_code === 'id' ? 'Berita' : 'News';
 
-  console.log('ID dari props:', id);
-  console.log('Lang Code dari props:', lang_code);
-  console.log("news:", news);
-console.log("another_news:", another_news);
-
   return (
     <div className="content-news-detail__page mt-10 w-10/12 mx-auto">
       <Link href={backLink} className="header-newspage">
